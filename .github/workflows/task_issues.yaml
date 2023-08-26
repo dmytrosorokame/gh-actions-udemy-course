@@ -1,0 +1,11 @@
+name: Detect Issues
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  output:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print event info
+        run: echo "${{toJson(github.event)}}"
