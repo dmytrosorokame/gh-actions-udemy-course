@@ -1,24 +1,16 @@
 {
-  "numTotalTestSuites": 3,
+  "numTotalTestSuites": 2,
   "numPassedTestSuites": 2,
-  "numFailedTestSuites": 1,
+  "numFailedTestSuites": 0,
   "numPendingTestSuites": 0,
   "numTotalTests": 2,
   "numPassedTests": 2,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1694153361895,
-  "success": false,
+  "startTime": 1694154460351,
+  "success": true,
   "testResults": [
-    {
-      "assertionResults": [],
-      "startTime": 1694153361895,
-      "endTime": 1694153361895,
-      "status": "passed",
-      "message": "[vite-node] Failed to load @playwright/test",
-      "name": "/Users/dmytrosoroka/Desktop/study/gh-actions-udemy-course/node-app/tests/events-api.spec.js"
-    },
     {
       "assertionResults": [
         {
@@ -29,7 +21,7 @@
           "fullName": " MainContent should render a button",
           "status": "passed",
           "title": "should render a button",
-          "duration": 65,
+          "duration": 60,
           "failureMessages": []
         },
         {
@@ -40,12 +32,12 @@
           "fullName": " MainContent should show the help area after clicking the button",
           "status": "passed",
           "title": "should show the help area after clicking the button",
-          "duration": 59,
+          "duration": 50,
           "failureMessages": []
         }
       ],
-      "startTime": 1694153364609,
-      "endTime": 1694153364733,
+      "startTime": 1694154462444,
+      "endTime": 1694154462554,
       "status": "passed",
       "message": "",
       "name": "/Users/dmytrosoroka/Desktop/study/gh-actions-udemy-course/src/components/MainContent.test.jsx"
